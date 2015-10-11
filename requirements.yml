@@ -1,0 +1,9 @@
+
+---
+- src: libselinux-python
+- src: repo-webtactic
+- src: git
+- src: mysql
+- src: php56
+- src: php56-mysql
+- src: composer
