@@ -1,0 +1,19 @@
+---
+# Ansible playbook
+#
+# Intalls PHP 5.6 with MySQL for RHEL/CentOS 6.x:
+
+- hosts: example
+  gather_facts: yes
+
+  vars_files:
+    - vars/main.yml
+
+  roles:
+    - libselinux-python
+    - git
+    - repo-webtatic
+    - mysql
+    - php56
+    - php56-mysql
+    - composer
