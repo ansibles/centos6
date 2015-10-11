@@ -1,0 +1,10 @@
+---
+workspace: /root
+hostname: ansibles
+
+# PHP=
+php_version: 5.6
+
+# MySQL
+# mysql_root_password: root
+# mysql_enablerepo: remi
